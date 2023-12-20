@@ -1,5 +1,5 @@
 const MAX_HEADER_LENGTH = 2000
-const THROW_ON_MAX_HEADER_LENGTH_EXCEEDED = false
+const THROW_ON_MAX_HEADER_LENGTH_EXCEEDED = true
 
 function hasRel (x) {
   return x && x.rel
